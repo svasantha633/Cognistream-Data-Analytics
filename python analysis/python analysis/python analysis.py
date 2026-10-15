@@ -10,4 +10,25 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 print("python analysis environment initialization")                                                                                                       
+#Commit 3: Load and inspect the dataset
 
+df = pd.read_excel(
+   "../Data/
+CogniStream_Developer_Flow_State_Cog
+nitive_Load_10000.xlsx"
+)
+
+print("First 5 rows:")
+print(df.head())
+
+print("\nColumn names:")
+print(df.columns.tolist())
+
+print("\nDataset shape:")
+print(df.shape)
+
+print("\nDataset information:")
+df.info()
+
+print("\nSummary statistics:")
+print(df.describe(include="all"))
