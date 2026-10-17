@@ -35,3 +35,17 @@ SELECT
     COUNT(*) FILTER (WHERE developer_id IS NULL) AS missing_developer_ids,
     COUNT(*) FILTER (WHERE cognitive_load_score IS NULL) AS missing_cognitive_scores
 FROM cognistream_data;
+
+-- CogniStream: Data Overview
+
+SELECT COUNT(*) AS total_sessions
+FROM cognistream_data;
+
+SELECT *
+FROM cognistream_data
+LIMIT 10;
+
+SELECT record_id, COUNT(*) AS occurrences
+FROM cognistream_data
+GROUP BY record_id
+HAVING COUNT(*) > 1;
