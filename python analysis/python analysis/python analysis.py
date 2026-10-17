@@ -32,3 +32,12 @@ df.info()
 
 print("\nSummary statistics:")
 print(df.describe(include="all"))
+# Missing Values Analysis
+
+print("\nMissing Values Analysis:")
+missing_values = df.isnull().sum()
+print(missing_values)
+
+total_missing = missing_values.sum()
+print("\nTotal Missing Values:",
+total_missing)
