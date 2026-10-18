@@ -41,3 +41,20 @@ print(missing_values)
 total_missing = missing_values.sum()
 print("\nTotal Missing Values:",
 total_missing)
+
+import pandas as pd
+
+df = pd.read_excel("data/CogniStream_Developer_Flow_State_Cognitive_Load_10000.xlsx")
+
+# Check for duplicate rows in the dataset
+
+duplicate_count =
+df.duplicated().sum()
+
+print("Number of duplicate rows:",
+duplicate_count)
+
+# Display duplicate rows
+duplicate_rows = df[df.duplicated()]
+
+print(duplicate_rows)
