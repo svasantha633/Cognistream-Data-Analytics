@@ -58,3 +58,6 @@ duplicate_count)
 duplicate_rows = df[df.duplicated()]
 
 print(duplicate_rows)
+
+# Review data types
+print(df.dtypes)
