@@ -61,3 +61,12 @@ print(duplicate_rows)
 
 # Review data types
 print(df.dtypes)
+
+# Prepare data for analysis
+
+df.columns = df.columns.str.strip()
+
+print("Dataset prepared for analysis")
+print(df.head())
+print(df.shape)
+print(df.dtypes)
