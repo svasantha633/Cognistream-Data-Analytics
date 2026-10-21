@@ -70,3 +70,7 @@ print("Dataset prepared for analysis")
 print(df.head())
 print(df.shape)
 print(df.dtypes)
+
+# Calculate basic statistics
+print("Basic Statistics:")
+print(df.describe())
