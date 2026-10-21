@@ -463,7 +463,7 @@ REC-00461,2025-11-21,17:38:00,DEV-0417,Developer,PRJ-011,Data Analysis,Power BI,
 REC-00462,2025-08-23,00:31:00,DEV-0545,Researcher,PRJ-006,Data Analysis,Power BI,Idle,5.0,231.0,2,Notification,148.5,4,0.2,38.8,1,9.4,45,Tablet,Linux Mint,High,Partially Completed,61.0
 REC-00463,2025-10-31,09:08:00,DEV-0383,Product Manager,PRJ-007,Documentation,Android Studio,Flow,4.4,204.0,2,Meeting,201.9,1,29.8,24.7,3,6.4,45,Desktop,macOS,Critical,Partially Completed,71.9
 REC-00464,2025-07-16,02:01:00,DEV-0788,Data Analyst,PRJ-003,Code Review,Power BI,Focused,4.0,183.0,0,Meeting,205.4,2,89.4,12.1,1,6.1,90,Laptop,Windows 10,Low,Completed,66.1
-REC-00465,2025-02-30,23:33:00,DEV-0524,Designer,PRJ-014,Code Review,Android Studio,Focused,5.1,235.0,1,Meeting,204.3,8,28.4,30.5,4,9.5,90,Desktop,Windows 10,Medium,Blocked,57.0
+REC-00465,2025-07-16,23:33:00,DEV-0524,Designer,PRJ-014,Code Review,Android Studio,Focused,5.1,235.0,1,Meeting,204.3,8,28.4,30.5,4,9.5,90,Desktop,Windows 10,Medium,Blocked,57.0
 REC-00466,2025-05-18,13:26:00,DEV-0425,Developer,PRJ-022,Coding,Jupyter Notebook,Blocked,5.7,160.0,4,Notification,279.9,7,16.8,64.8,0,5.1,45,Tablet,Linux Mint,Low,Partially Completed,66.4
 REC-00467,2025-12-18,15:28:00,DEV-0216,Content Writer,PRJ-023,Data Analysis,Intellij Idea,Blocked,6.9,95.0,2,Notification,205.3,2,35.3,78.7,1,10.0,30,Desktop,Ubuntu,High,Partially Completed,62.4
 REC-00468,2025-10-03,04:28:00,DEV-0741,Researcher,PRJ-023,Learning,Jupyter Notebook,Focused,3.7,224.0,2,Email,112.3,5,3.4,77.2,0,3.8,0,Desktop,Windows 10,Low,Partially Completed,77.5
@@ -510,7 +510,7 @@ REC-00508,2025-03-06,22:56:00,DEV-0704,Researcher,PRJ-029,Testing,Android Studio
 REC-00509,2025-01-23,09:49:00,DEV-0583,Qa Engineer,PRJ-014,Code Review,Tableau,Focused,9.6,124.0,1,Unspecified,167.2,6,66.9,39.2,0,6.6,15,Tablet,macOS,Medium,Completed,71.4
 REC-00510,2025-11-21,11:12:00,DEV-0498,Product Manager,PRJ-020,Data Analysis,Tableau,Blocked,4.6,48.0,3,Unspecified,163.2,3,35.0,27.2,1,5.2,60,Desktop,Ubuntu,Medium,Abandoned,100.0
 REC-00511,2025-04-02,17:43:00,DEV-0428,Content Writer,PRJ-019,Research,Intellij Idea,Interrupted,7.5,227.0,3,Notification,121.6,4,55.5,53.4,1,7.0,0,Tablet,Ubuntu,Critical,Abandoned,62.4
-REC-00512,not_a_date,00:46:00,DEV-0378,Business Analyst,PRJ-023,Code Review,Android Studio,Interrupted,3.3,64.0,3,Email,155.4,4,64.0,47.9,2,6.1,30,Laptop,Windows 11,Low,Partially Completed,91.7
+REC-00512,2025-04-02,00:46:00,DEV-0378,Business Analyst,PRJ-023,Code Review,Android Studio,Interrupted,3.3,64.0,3,Email,155.4,4,64.0,47.9,2,6.1,30,Laptop,Windows 11,Low,Partially Completed,91.7
 REC-00513,2025-06-14,08:15:00,DEV-0320,Researcher,PRJ-008,Documentation,Tableau,Multitasking,6.0,6.0,0,Message,169.4,5,6.0,38.5,0,5.0,15,Laptop,Windows 10,Low,Abandoned,58.6
 REC-00514,2025-02-19,03:29:00,DEV-0794,Data Analyst,PRJ-011,Debugging,Vs Code,Flow,3.7,47.0,2,Message,170.5,7,47.0,27.8,1,6.2,60,Desktop,Windows 11,Low,Completed,72.1
 REC-00515,2025-07-02,01:03:00,DEV-0139,Content Writer,PRJ-002,Research,Vs Code,Idle,5.4,202.0,2,Message,132.6,10,49.9,67.7,2,6.9,45,Desktop,Ubuntu,Critical,Abandoned,56.4
@@ -648,7 +648,7 @@ REC-00646,2025-06-21,19:29:00,DEV-0194,Developer,PRJ-021,Documentation,Jupyter N
 REC-00647,2025-08-18,10:11:00,DEV-0227,Researcher,PRJ-008,Testing,Android Studio,Interrupted,3.7,221.0,1,Unspecified,186.3,4,39.4,81.4,2,5.9,60,Desktop,Ubuntu,High,Blocked,96.0
 REC-00648,2025-10-09,05:58:00,DEV-0375,Data Analyst,PRJ-012,Code Review,Vs Code,Multitasking,9.3,192.0,5,Email,147.6,4,49.2,28.8,0,7.1,0,Desktop,Linux Mint,Low,Blocked,77.7
 REC-00649,2025-11-22,21:26:00,DEV-0600,Business Analyst,PRJ-029,Coding,Intellij Idea,Focused,6.3,237.0,1,Colleague Question,163.7,4,53.5,78.6,1,3.5,60,Desktop,Linux Mint,High,Blocked,78.6
-REC-00650,2025-02-30,07:47:00,DEV-0100,Developer,PRJ-017,Code Review,Power BI,Focused,5.0,135.0,1,Notification,162.4,2,81.9,18.6,1,6.9,90,Laptop,Linux Mint,Low,Abandoned,60.7
+REC-00650,2025-11-22,07:47:00,DEV-0100,Developer,PRJ-017,Code Review,Power BI,Focused,5.0,135.0,1,Notification,162.4,2,81.9,18.6,1,6.9,90,Laptop,Linux Mint,Low,Abandoned,60.7
 REC-00651,2025-11-02,11:34:00,DEV-0356,Developer,PRJ-007,Testing,Tableau,Focused,4.0,56.0,4,Colleague Question,302.5,0,56.0,48.0,1,4.4,60,Tablet,Linux Mint,Low,Abandoned,74.0
 REC-00652,2025-04-05,23:10:00,DEV-0519,Designer,PRJ-007,Coding,Excel,Focused,6.2,17.0,2,Notification,245.7,5,17.0,36.6,1,6.4,15,Desktop,Windows 10,High,Completed,86.7
 REC-00653,2025-01-06,13:51:00,DEV-0607,Business Analyst,PRJ-019,Research,Eclipse,Focused,4.1,80.0,3,Notification,192.2,6,42.2,25.5,3,4.5,45,Tablet,macOS,Low,Partially Completed,76.6
@@ -916,7 +916,7 @@ REC-00914,2025-01-21,00:28:00,DEV-0703,Researcher,PRJ-001,Testing,Power BI,Inter
 REC-00915,2025-06-16,17:29:00,DEV-0251,Content Writer,PRJ-022,Design,Webstorm,Focused,2.1,120.0,0,No Interruption,200.5,5,75.6,99.5,1,5.9,30,Laptop,Ubuntu,Low,Completed,65.3
 REC-00916,2025-11-28,16:03:00,DEV-0208,Content Writer,PRJ-005,Meeting,Figma,Idle,3.2,188.0,2,Phone Call,180.9,2,15.8,21.7,2,7.2,30,Desktop,Ubuntu,High,Blocked,67.1
 REC-00917,2025-07-20,03:47:00,DEV-0062,Developer,PRJ-007,Design,Power BI,Flow,10.0,65.0,2,Meeting,242.9,9,34.0,88.2,3,5.9,90,Tablet,Windows 10,Medium,Partially Completed,66.7
-REC-00918,2025-13-45,09:35:00,DEV-0649,Business Analyst,PRJ-003,Code Review,Jupyter Notebook,Flow,2.2,92.0,2,Notification,203.0,7,26.2,74.6,2,7.1,45,Laptop,Linux Mint,Low,Partially Completed,59.8
+REC-00918,2025-07-20,09:35:00,DEV-0649,Business Analyst,PRJ-003,Code Review,Jupyter Notebook,Flow,2.2,92.0,2,Notification,203.0,7,26.2,74.6,2,7.1,45,Laptop,Linux Mint,Low,Partially Completed,59.8
 REC-00919,2025-11-18,06:57:00,DEV-0274,Business Analyst,PRJ-010,Learning,Figma,Focused,5.4,106.0,0,Email,191.9,7,6.6,36.8,0,5.3,60,Laptop,Ubuntu,High,Completed,67.8
 REC-00920,2025-11-12,16:42:00,DEV-0235,Researcher,PRJ-008,Learning,Vs Code,Unknown,4.9,34.0,5,Meeting,170.0,5,34.0,66.3,1,4.7,15,Desktop,Windows 10,Critical,Completed,61.9
 REC-00921,2025-03-27,20:04:00,DEV-0263,Designer,PRJ-006,Meeting,Visual Studio,Interrupted,4.2,81.0,1,Email,228.1,6,48.9,85.9,0,6.7,90,Laptop,macOS,Low,Abandoned,88.1
@@ -962,7 +962,7 @@ REC-00960,2025-02-25,23:12:00,DEV-0470,Content Writer,PRJ-017,Code Review,Excel,
 REC-00961,2025-09-15,16:15:00,DEV-0345,Researcher,PRJ-006,Code Review,Power BI,Focused,8.4,38.0,0,No Interruption,223.9,6,3.2,56.7,3,8.3,45,Desktop,Linux Mint,Low,Partially Completed,75.9
 REC-00962,2025-02-12,09:18:00,DEV-0737,Business Analyst,PRJ-022,Testing,Vs Code,Flow,6.8,170.0,2,Phone Call,145.6,0,54.4,48.1,2,9.2,90,Tablet,Ubuntu,Medium,Abandoned,57.7
 REC-00963,2025-08-12,18:35:00,DEV-0797,Developer,PRJ-017,Code Review,Vs Code,Flow,5.4,124.0,4,Unspecified,90.5,2,79.6,43.2,2,5.5,15,Laptop,Windows 10,High,Completed,60.0
-REC-00964,not_a_date,22:46:00,DEV-0254,Content Writer,PRJ-006,Learning,Webstorm,Blocked,4.2,153.0,2,Unspecified,132.3,3,5.5,94.4,2,5.6,15,Tablet,Windows 10,High,Abandoned,82.7
+REC-00964,2025-08-12,22:46:00,DEV-0254,Content Writer,PRJ-006,Learning,Webstorm,Blocked,4.2,153.0,2,Unspecified,132.3,3,5.5,94.4,2,5.6,15,Tablet,Windows 10,High,Abandoned,82.7
 REC-00965,2025-07-16,07:06:00,DEV-0381,Researcher,PRJ-018,Learning,Excel,Focused,4.1,12.0,3,Phone Call,231.5,4,2.3,56.1,1,8.1,60,Tablet,Linux Mint,Medium,Completed,23.6
 REC-00966,2025-04-23,13:41:00,DEV-0367,Designer,PRJ-002,Design,Tableau,Idle,4.0,110.0,1,Email,120.1,5,9.1,84.4,1,4.8,60,Desktop,Ubuntu,High,Completed,91.1
 REC-00967,2025-03-18,00:43:00,DEV-0300,Qa Engineer,PRJ-015,Research,Visual Studio,Interrupted,5.3,40.0,5,Message,92.0,10,9.7,61.9,0,5.8,90,Tablet,macOS,Critical,Blocked,50.4
@@ -1925,7 +1925,7 @@ REC-01923,2025-10-01,13:32:00,DEV-0671,Data Analyst,PRJ-001,Research,Jupyter Not
 REC-01924,2025-08-19,08:18:00,DEV-0481,Developer,PRJ-010,Research,Figma,Interrupted,2.6,50.0,4,Colleague Question,224.5,7,50.0,56.4,0,8.3,30,Laptop,Windows 11,Low,Abandoned,87.3
 REC-01925,2025-02-18,07:15:00,DEV-0153,Data Analyst,PRJ-027,Code Review,Tableau,Focused,4.5,44.0,4,Email,86.0,7,44.0,76.3,2,6.6,0,Laptop,Linux Mint,Low,Partially Completed,86.6
 REC-01926,2025-07-24,07:57:00,DEV-0762,Researcher,PRJ-006,Testing,Figma,Focused,6.6,139.0,3,Colleague Question,125.1,7,42.2,63.8,2,6.2,60,Tablet,Ubuntu,High,Partially Completed,73.4
-REC-01927,2025-13-45,15:39:00,DEV-0559,Content Writer,PRJ-003,Data Analysis,Webstorm,Blocked,8.7,14.0,4,Unspecified,214.8,5,14.0,63.3,1,6.1,45,Laptop,Linux Mint,Medium,Abandoned,60.9
+REC-01927,2025-07-24,15:39:00,DEV-0559,Content Writer,PRJ-003,Data Analysis,Webstorm,Blocked,8.7,14.0,4,Unspecified,214.8,5,14.0,63.3,1,6.1,45,Laptop,Linux Mint,Medium,Abandoned,60.9
 REC-01928,2025-02-23,15:40:00,DEV-0649,Content Writer,PRJ-004,Learning,Intellij Idea,Blocked,3.9,16.0,3,Colleague Question,194.7,6,16.0,19.5,1,9.8,45,Tablet,Windows 11,Medium,Blocked,86.2
 REC-01929,2025-03-10,15:17:00,DEV-0192,Researcher,PRJ-001,Debugging,Power BI,Multitasking,4.2,233.0,3,Unspecified,262.2,1,11.2,70.4,1,7.6,60,Laptop,Windows 11,Critical,Partially Completed,56.4
 REC-01930,2025-10-09,06:51:00,DEV-0228,Business Analyst,PRJ-006,Code Review,Figma,Focused,8.3,38.0,2,Unspecified,216.7,3,26.0,58.9,3,5.2,45,Desktop,Linux Mint,Medium,Abandoned,86.0
@@ -2084,7 +2084,7 @@ REC-02082,2025-03-25,00:03:00,DEV-0020,Business Analyst,PRJ-019,Code Review,Figm
 REC-02083,2025-04-06,11:36:00,DEV-0046,Developer,PRJ-019,Data Analysis,Excel,Flow,2.4,106.0,1,Message,173.9,2,78.6,74.2,0,4.9,0,Laptop,Linux Mint,Low,Blocked,99.9
 REC-02084,2025-12-08,17:57:00,DEV-0650,Data Analyst,PRJ-007,Documentation,Power BI,Interrupted,4.8,116.0,2,Notification,118.4,3,47.5,40.2,2,7.1,60,Laptop,macOS,Low,Abandoned,63.3
 REC-02085,2025-11-22,14:43:00,DEV-0764,Business Analyst,PRJ-010,Coding,Webstorm,Multitasking,4.4,151.0,0,Message,144.5,5,34.3,11.6,1,8.8,15,Tablet,Linux Mint,High,Partially Completed,57.3
-REC-02086,2025-02-30,03:14:00,DEV-0545,Researcher,PRJ-008,Data Analysis,Tableau,Interrupted,5.5,97.0,0,No Interruption,219.2,3,67.6,79.5,1,5.4,90,Desktop,Windows 11,Low,Completed,41.0
+REC-02086,2025-11-22,03:14:00,DEV-0545,Researcher,PRJ-008,Data Analysis,Tableau,Interrupted,5.5,97.0,0,No Interruption,219.2,3,67.6,79.5,1,5.4,90,Desktop,Windows 11,Low,Completed,41.0
 REC-02087,2025-03-06,01:48:00,DEV-0658,Content Writer,PRJ-027,Testing,Tableau,Flow,6.4,63.0,4,Email,251.6,2,16.2,96.4,2,8.7,45,Laptop,Ubuntu,Low,Blocked,27.3
 REC-02088,2025-02-15,00:03:00,DEV-0497,Business Analyst,PRJ-014,Data Analysis,Jupyter Notebook,Focused,6.1,40.0,7,Notification,249.0,5,11.9,21.5,5,6.6,0,Laptop,Windows 10,High,Partially Completed,55.3
 REC-02089,2025-04-15,05:56:00,DEV-0746,Product Manager,PRJ-029,Data Analysis,Eclipse,Flow,3.1,70.0,2,Message,164.4,6,68.9,65.7,1,2.5,90,Laptop,Ubuntu,Medium,Abandoned,68.3
@@ -2192,7 +2192,7 @@ REC-02190,2025-12-14,09:45:00,DEV-0440,Content Writer,PRJ-009,Data Analysis,Visu
 REC-02191,2025-01-24,20:39:00,DEV-0649,Business Analyst,PRJ-020,Coding,Visual Studio,Multitasking,8.0,5.0,2,Email,175.3,5,5.0,66.5,2,7.6,0,Desktop,macOS,Low,Partially Completed,100.0
 REC-02192,2025-04-08,07:32:00,DEV-0487,Qa Engineer,PRJ-002,Testing,Intellij Idea,Focused,2.9,72.0,1,Phone Call,260.4,2,72.0,66.9,2,8.3,0,Desktop,Linux Mint,Critical,Completed,73.3
 REC-02193,2025-06-08,08:08:00,DEV-0749,Content Writer,PRJ-021,Debugging,Jupyter Notebook,Focused,3.9,101.0,0,Email,173.6,7,56.2,78.4,0,4.3,60,Laptop,Windows 10,Critical,Completed,52.1
-REC-02194,31/31/2025,03:13:00,DEV-0229,Business Analyst,PRJ-002,Research,Jupyter Notebook,Interrupted,5.1,72.0,2,Email,92.4,6,72.0,69.2,4,7.8,15,Desktop,Ubuntu,Low,Abandoned,58.4
+REC-02194,2025-06-08,03:13:00,DEV-0229,Business Analyst,PRJ-002,Research,Jupyter Notebook,Interrupted,5.1,72.0,2,Email,92.4,6,72.0,69.2,4,7.8,15,Desktop,Ubuntu,Low,Abandoned,58.4
 REC-02195,2025-01-25,07:24:00,DEV-0212,Product Manager,PRJ-022,Documentation,Excel,Multitasking,7.8,28.0,2,Email,223.2,9,25.1,58.0,2,7.0,30,Tablet,Windows 11,Critical,Abandoned,93.1
 REC-02196,2025-09-09,14:55:00,DEV-0354,Business Analyst,PRJ-020,Research,Android Studio,Focused,4.2,171.0,3,Unspecified,165.8,2,35.2,47.2,1,2.3,30,Tablet,macOS,Medium,Blocked,54.1
 REC-02197,2025-04-06,16:25:00,DEV-0720,Researcher,PRJ-014,Testing,Power BI,Focused,5.4,51.0,3,Email,190.2,4,31.4,35.8,1,8.5,90,Laptop,macOS,Medium,Completed,90.3
@@ -3076,7 +3076,7 @@ REC-03074,2025-01-09,11:48:00,DEV-0578,Data Analyst,PRJ-006,Code Review,Vs Code,
 REC-03075,2025-04-18,05:11:00,DEV-0313,Business Analyst,PRJ-030,Code Review,Eclipse,Flow,3.2,33.0,0,Phone Call,187.7,4,19.0,73.6,1,8.5,15,Laptop,Windows 10,Low,Blocked,74.1
 REC-03076,2025-03-05,14:29:00,DEV-0429,Business Analyst,PRJ-023,Meeting,Tableau,Focused,7.4,124.0,3,Notification,159.7,6,32.6,65.6,1,7.9,90,Laptop,Windows 11,Medium,Completed,49.1
 REC-03077,2025-02-24,22:59:00,DEV-0173,Qa Engineer,PRJ-022,Documentation,Visual Studio,Focused,3.3,213.0,1,Meeting,102.5,6,17.0,25.7,1,5.6,0,Laptop,Windows 11,Critical,Completed,82.2
-REC-03078,31/31/2025,15:01:00,DEV-0567,Developer,PRJ-028,Debugging,Intellij Idea,Focused,4.2,111.0,1,Meeting,193.9,4,84.8,57.7,1,5.7,0,Desktop,Ubuntu,Low,Abandoned,94.8
+REC-03078,2025-02-24,15:01:00,DEV-0567,Developer,PRJ-028,Debugging,Intellij Idea,Focused,4.2,111.0,1,Meeting,193.9,4,84.8,57.7,1,5.7,0,Desktop,Ubuntu,Low,Abandoned,94.8
 REC-03079,2025-11-25,11:04:00,DEV-0088,Data Analyst,PRJ-016,Debugging,Power BI,Multitasking,6.9,27.0,2,Phone Call,193.2,5,27.0,71.1,3,5.8,30,Tablet,Windows 10,Critical,Blocked,74.8
 REC-03080,2025-08-22,21:55:00,DEV-0541,Business Analyst,PRJ-007,Code Review,Jupyter Notebook,Focused,5.4,45.0,3,Phone Call,146.4,5,45.0,82.7,1,8.8,45,Desktop,Windows 10,High,Completed,38.0
 REC-03081,2025-11-29,01:17:00,DEV-0226,Qa Engineer,PRJ-022,Research,Visual Studio,Focused,4.4,154.0,3,Meeting,170.5,5,43.9,89.8,1,7.8,15,Laptop,Linux Mint,Medium,Completed,78.7
@@ -4180,7 +4180,7 @@ REC-04178,2025-06-16,15:05:00,DEV-0577,Designer,PRJ-021,Debugging,Excel,Blocked,
 REC-04179,2025-05-10,03:03:00,DEV-0161,Data Analyst,PRJ-024,Design,Pycharm,Focused,5.2,107.0,2,Colleague Question,229.0,5,46.9,15.2,0,7.1,0,Laptop,Windows 11,High,Partially Completed,53.3
 REC-04180,2025-08-10,05:09:00,DEV-0602,Product Manager,PRJ-022,Meeting,Excel,Multitasking,5.5,118.0,0,Notification,128.3,7,18.6,87.8,1,5.1,45,Laptop,macOS,Critical,Completed,68.4
 REC-04181,2025-05-08,18:21:00,DEV-0641,Developer,PRJ-001,Learning,Tableau,Multitasking,8.4,226.0,4,Message,133.7,2,28.1,53.0,3,6.1,15,Laptop,Linux Mint,Medium,Abandoned,80.2
-REC-04182,2025/14/01,03:57:00,DEV-0460,Qa Engineer,PRJ-016,Design,Webstorm,Flow,2.6,140.0,4,Notification,127.3,7,64.1,79.2,1,3.3,15,Desktop,Windows 11,Critical,Blocked,69.2
+REC-04182,2025-05-08,03:57:00,DEV-0460,Qa Engineer,PRJ-016,Design,Webstorm,Flow,2.6,140.0,4,Notification,127.3,7,64.1,79.2,1,3.3,15,Desktop,Windows 11,Critical,Blocked,69.2
 REC-04183,2025-04-11,12:05:00,DEV-0342,Content Writer,PRJ-013,Design,Excel,Focused,9.2,94.0,2,Unspecified,286.2,3,79.2,59.6,1,5.6,15,Tablet,macOS,High,Abandoned,25.0
 REC-04184,2025-02-19,16:45:00,DEV-0466,Product Manager,PRJ-005,Learning,Webstorm,Multitasking,5.8,48.0,0,Meeting,208.4,4,44.3,38.2,3,8.3,90,Laptop,Linux Mint,Critical,Partially Completed,81.8
 REC-04185,2025-02-10,04:00:00,DEV-0775,Business Analyst,PRJ-009,Code Review,Excel,Focused,5.5,228.0,4,Unspecified,218.1,5,3.1,21.7,1,4.3,30,Laptop,macOS,Medium,Abandoned,69.0
@@ -4407,8 +4407,8 @@ REC-04405,2025-02-21,13:28:00,DEV-0746,Developer,PRJ-025,Meeting,Power BI,Focuse
 REC-04406,2025-07-03,22:58:00,DEV-0485,Qa Engineer,PRJ-003,Documentation,Visual Studio,Flow,5.6,185.0,2,Colleague Question,212.8,6,25.7,21.5,1,5.1,30,Desktop,Ubuntu,Critical,Blocked,79.8
 REC-04407,2025-04-20,00:30:00,DEV-0090,Data Analyst,PRJ-026,Debugging,Jupyter Notebook,Blocked,2.8,79.0,3,Unspecified,259.9,8,41.4,35.7,3,4.9,60,Laptop,Windows 10,Critical,Blocked,72.8
 REC-04408,2025-04-20,09:19:00,DEV-0215,Qa Engineer,PRJ-007,Code Review,Vs Code,Focused,2.6,60.0,8,Phone Call,260.7,3,60.0,17.7,3,6.6,60,Laptop,Linux Mint,Low,Blocked,78.5
-REC-04409,31/31/2025,09:12:00,DEV-0022,Data Analyst,PRJ-003,Meeting,Pycharm,Blocked,3.1,21.0,2,Unspecified,135.4,7,2.8,81.4,1,4.9,0,Tablet,Windows 11,Low,Completed,86.1
-REC-04410,31/31/2025,14:40:00,DEV-0322,Data Analyst,PRJ-029,Debugging,Intellij Idea,Interrupted,6.9,45.0,2,Message,255.6,4,45.0,73.4,1,3.4,30,Tablet,Windows 11,Low,Blocked,57.7
+REC-04409,2025-04-20,09:12:00,DEV-0022,Data Analyst,PRJ-003,Meeting,Pycharm,Blocked,3.1,21.0,2,Unspecified,135.4,7,2.8,81.4,1,4.9,0,Tablet,Windows 11,Low,Completed,86.1
+REC-04410,2025-04-20,14:40:00,DEV-0322,Data Analyst,PRJ-029,Debugging,Intellij Idea,Interrupted,6.9,45.0,2,Message,255.6,4,45.0,73.4,1,3.4,30,Tablet,Windows 11,Low,Blocked,57.7
 REC-04411,2025-04-01,21:36:00,DEV-0521,Developer,PRJ-001,Testing,Tableau,Interrupted,5.0,7.0,2,Message,180.7,4,7.0,53.9,1,4.7,45,Desktop,Windows 10,Low,Partially Completed,66.1
 REC-04412,2025-08-13,08:38:00,DEV-0139,Researcher,PRJ-026,Code Review,Excel,Focused,3.0,152.0,4,Meeting,177.0,4,25.1,50.6,0,6.8,0,Desktop,Windows 10,High,Completed,68.2
 REC-04413,2025-05-28,23:13:00,DEV-0281,Qa Engineer,PRJ-009,Design,Figma,Blocked,3.0,180.0,1,Message,138.8,4,52.3,52.0,0,6.1,0,Tablet,Ubuntu,Low,Blocked,54.5
@@ -5398,7 +5398,7 @@ REC-05396,2025-04-09,04:47:00,DEV-0168,Content Writer,PRJ-002,General,Tableau,In
 REC-05397,2025-03-05,18:02:00,DEV-0688,Business Analyst,PRJ-026,Data Analysis,Excel,Flow,5.3,180.0,2,Colleague Question,245.5,7,84.0,87.7,3,5.6,45,Laptop,Windows 11,High,Partially Completed,34.4
 REC-05398,2025-07-01,19:56:00,DEV-0091,Content Writer,PRJ-005,Documentation,Visual Studio,Focused,2.6,62.0,4,Colleague Question,315.5,4,34.0,68.2,1,6.8,15,Desktop,Ubuntu,High,Completed,89.4
 REC-05399,2025-06-06,11:49:00,DEV-0082,Business Analyst,PRJ-001,Testing,Tableau,Interrupted,6.3,157.0,2,Meeting,249.5,8,15.7,36.8,0,5.6,90,Tablet,Linux Mint,Low,Completed,70.4
-REC-05400,2025-02-30,23:42:00,DEV-0074,Developer,PRJ-018,Data Analysis,Figma,Interrupted,4.9,62.0,0,Notification,297.7,3,62.0,59.1,1,7.4,30,Desktop,macOS,Critical,Partially Completed,70.1
+REC-05400,2025-06-06,23:42:00,DEV-0074,Developer,PRJ-018,Data Analysis,Figma,Interrupted,4.9,62.0,0,Notification,297.7,3,62.0,59.1,1,7.4,30,Desktop,macOS,Critical,Partially Completed,70.1
 REC-05401,2025-10-19,15:22:00,DEV-0375,Researcher,PRJ-001,Code Review,Webstorm,Multitasking,9.6,161.0,2,Message,261.6,1,77.9,61.7,0,7.9,15,Laptop,Windows 10,Critical,Partially Completed,47.5
 REC-05402,2025-01-06,10:15:00,DEV-0203,Data Analyst,PRJ-006,Data Analysis,Excel,Focused,5.8,173.0,1,Colleague Question,169.2,3,58.2,63.9,3,2.8,15,Desktop,Ubuntu,Medium,Partially Completed,92.7
 REC-05403,2025-02-27,02:42:00,DEV-0305,Researcher,PRJ-007,Learning,Tableau,Focused,7.8,109.0,3,Colleague Question,110.5,4,28.6,99.3,1,5.2,45,Tablet,macOS,Low,Partially Completed,79.2
@@ -6754,7 +6754,7 @@ REC-06752,2025-03-19,06:51:00,DEV-0746,Content Writer,PRJ-006,Debugging,Intellij
 REC-06753,2025-12-07,20:21:00,DEV-0374,Designer,PRJ-002,Code Review,Visual Studio,Blocked,5.9,65.0,4,Message,220.3,5,20.5,49.0,2,6.6,45,Laptop,Windows 11,Medium,Blocked,72.3
 REC-06754,2025-03-05,05:42:00,DEV-0579,Business Analyst,PRJ-020,Meeting,Pycharm,Interrupted,5.7,208.0,2,Phone Call,208.3,4,80.3,39.7,2,7.0,15,Tablet,Ubuntu,High,Blocked,80.1
 REC-06755,2025-07-27,08:19:00,DEV-0416,Data Analyst,PRJ-016,Code Review,Visual Studio,Focused,6.5,193.0,3,Email,180.5,5,73.3,29.7,3,8.8,30,Tablet,Linux Mint,Low,Completed,87.5
-REC-06756,2025/14/01,15:25:00,DEV-0254,Content Writer,PRJ-021,Meeting,Vs Code,Idle,6.0,115.0,0,Phone Call,167.1,6,58.7,90.7,3,9.6,90,Laptop,Windows 11,Low,Abandoned,100.0
+REC-06756,2025-07-27,15:25:00,DEV-0254,Content Writer,PRJ-021,Meeting,Vs Code,Idle,6.0,115.0,0,Phone Call,167.1,6,58.7,90.7,3,9.6,90,Laptop,Windows 11,Low,Abandoned,100.0
 REC-06757,2025-12-29,09:24:00,DEV-0519,Developer,PRJ-020,Data Analysis,Intellij Idea,Blocked,7.6,67.0,0,Phone Call,212.3,3,50.7,13.1,0,7.2,0,Laptop,Windows 10,High,Completed,79.6
 REC-06758,2025-10-15,13:07:00,DEV-0170,Qa Engineer,PRJ-029,Meeting,Intellij Idea,Interrupted,8.0,237.0,2,Unspecified,145.9,3,53.5,61.7,3,4.9,45,Laptop,Linux Mint,Critical,Completed,66.4
 REC-06759,2025-07-12,20:18:00,DEV-0226,Designer,PRJ-012,Coding,Webstorm,Interrupted,7.0,195.0,1,Meeting,180.85,5,80.4,54.7,0,3.2,60,Laptop,Windows 11,High,Completed,69.8
@@ -6957,7 +6957,7 @@ REC-06955,2025-08-17,18:06:00,DEV-0158,Developer,PRJ-023,Learning,Figma,Focused,
 REC-06956,2025-08-20,07:58:00,DEV-0527,Developer,PRJ-006,Data Analysis,Visual Studio,Multitasking,8.6,90.0,3,Unspecified,173.8,5,80.8,93.8,1,6.2,30,Desktop,Windows 11,Medium,Partially Completed,82.2
 REC-06957,2025-05-20,08:09:00,DEV-0144,Researcher,PRJ-027,Testing,Jupyter Notebook,Multitasking,5.6,52.0,2,Unspecified,144.6,3,1.1,41.4,0,5.6,0,Tablet,macOS,Critical,Blocked,87.8
 REC-06958,2025-05-25,17:45:00,DEV-0647,Researcher,PRJ-026,Coding,Jupyter Notebook,Focused,2.8,223.0,1,Meeting,236.4,3,9.2,43.3,2,6.3,30,Laptop,Ubuntu,Low,Abandoned,87.4
-REC-06959,not_a_date,21:38:00,DEV-0077,Product Manager,PRJ-008,Documentation,Android Studio,Multitasking,6.2,183.0,4,Message,218.6,3,12.6,55.8,2,5.7,0,Desktop,Windows 11,Low,Abandoned,72.8
+REC-06959,2025-05-25,21:38:00,DEV-0077,Product Manager,PRJ-008,Documentation,Android Studio,Multitasking,6.2,183.0,4,Message,218.6,3,12.6,55.8,2,5.7,0,Desktop,Windows 11,Low,Abandoned,72.8
 REC-06960,2025-08-09,14:34:00,DEV-0370,Researcher,PRJ-012,Documentation,Visual Studio,Focused,5.0,192.0,1,Email,173.9,11,14.7,77.7,1,8.0,0,Laptop,Ubuntu,High,Blocked,72.2
 REC-06961,2025-11-27,17:41:00,DEV-0020,Content Writer,PRJ-018,Documentation,Tableau,Focused,6.6,200.0,1,Email,143.6,4,70.4,71.4,3,3.9,90,Laptop,Windows 11,High,Blocked,47.4
 REC-06962,2025-05-14,22:29:00,DEV-0424,Content Writer,PRJ-008,Testing,Excel,Interrupted,4.0,127.0,0,Notification,97.6,2,72.2,33.6,0,9.4,0,Desktop,Windows 11,Low,Abandoned,77.0
@@ -7510,7 +7510,7 @@ REC-07508,2025-07-22,09:02:00,DEV-0172,Designer,PRJ-004,Testing,Jupyter Notebook
 REC-07509,2025-07-13,08:24:00,DEV-0179,Content Writer,PRJ-026,Meeting,Figma,Blocked,5.7,224.0,0,Meeting,203.4,2,39.2,87.7,2,5.5,45,Tablet,Windows 11,High,Completed,47.9
 REC-07510,2025-08-07,10:36:00,DEV-0094,Product Manager,PRJ-023,Data Analysis,Tableau,Flow,5.5,205.0,5,Meeting,188.9,4,54.0,73.8,2,6.7,30,Laptop,Linux Mint,High,Completed,55.3
 REC-07511,2025-11-30,10:00:00,DEV-0231,Data Analyst,PRJ-007,Debugging,Pycharm,Focused,8.4,36.0,4,Notification,205.5,4,29.9,65.9,2,5.4,45,Laptop,Windows 10,Critical,Partially Completed,83.0
-REC-07512,2025-13-45,20:35:00,DEV-0041,Developer,PRJ-010,Debugging,Intellij Idea,Focused,5.3,102.0,2,Colleague Question,284.9,3,65.3,54.8,1,6.8,90,Tablet,Linux Mint,Low,Completed,50.7
+REC-07512,2025-11-30,20:35:00,DEV-0041,Developer,PRJ-010,Debugging,Intellij Idea,Focused,5.3,102.0,2,Colleague Question,284.9,3,65.3,54.8,1,6.8,90,Tablet,Linux Mint,Low,Completed,50.7
 REC-07513,2025-11-08,09:48:00,DEV-0176,Designer,PRJ-010,Documentation,Intellij Idea,Focused,8.5,103.0,5,Phone Call,190.1,2,17.8,22.1,3,4.6,15,Desktop,Ubuntu,Low,Partially Completed,65.5
 REC-07514,2025-12-21,15:39:00,DEV-0040,Product Manager,PRJ-012,Research,Visual Studio,Focused,7.7,117.0,3,Colleague Question,137.7,5,78.0,19.9,3,6.5,90,Laptop,Ubuntu,Critical,Completed,74.3
 REC-07515,2025-06-06,18:30:00,DEV-0515,Business Analyst,PRJ-019,Design,Intellij Idea,Multitasking,8.9,132.0,3,Message,126.5,5,40.7,11.2,1,4.7,15,Desktop,Windows 11,High,Abandoned,77.3
@@ -8068,7 +8068,7 @@ REC-08066,2025-04-22,11:49:00,DEV-0767,Data Analyst,PRJ-029,Learning,Excel,Flow,
 REC-08067,2025-08-06,13:55:00,DEV-0135,Developer,PRJ-021,Data Analysis,Figma,Focused,3.9,176.0,4,Notification,231.9,2,15.7,81.9,1,8.8,45,Tablet,macOS,Medium,Completed,69.3
 REC-08068,2025-02-08,21:28:00,DEV-0712,Qa Engineer,PRJ-002,Documentation,Excel,Focused,5.3,201.0,2,Email,233.7,11,59.8,94.2,4,3.8,90,Desktop,Linux Mint,Critical,Partially Completed,95.2
 REC-08069,2025-06-21,03:05:00,DEV-0133,Researcher,PRJ-025,Design,Figma,Idle,5.1,58.0,3,Colleague Question,197.0,7,26.0,49.5,3,4.3,90,Desktop,Ubuntu,High,Blocked,83.0
-REC-08070,2025/14/01,06:28:00,DEV-0288,Qa Engineer,PRJ-017,Learning,Eclipse,Blocked,6.4,205.0,2,Meeting,201.7,12,24.8,92.8,1,4.8,15,Desktop,Windows 10,High,Abandoned,70.9
+REC-08070,2025-06-21,06:28:00,DEV-0288,Qa Engineer,PRJ-017,Learning,Eclipse,Blocked,6.4,205.0,2,Meeting,201.7,12,24.8,92.8,1,4.8,15,Desktop,Windows 10,High,Abandoned,70.9
 REC-08071,2025-02-19,11:23:00,DEV-0486,Content Writer,PRJ-027,Testing,Tableau,Flow,2.4,232.0,3,Unspecified,162.7,5,15.3,60.0,1,5.0,15,Desktop,macOS,Low,Abandoned,76.3
 REC-08072,2025-04-20,13:55:00,DEV-0673,Researcher,PRJ-018,Data Analysis,Tableau,Flow,5.9,53.0,1,Email,128.0,9,49.3,68.8,4,7.0,0,Tablet,macOS,Critical,Abandoned,77.3
 REC-08073,2025-04-12,11:10:00,DEV-0750,Data Analyst,PRJ-006,Research,Jupyter Notebook,Multitasking,6.8,34.0,1,Meeting,194.5,4,34.0,21.8,0,5.1,60,Laptop,macOS,High,Blocked,77.9
@@ -8076,7 +8076,7 @@ REC-08074,2025-12-23,16:09:00,DEV-0642,Product Manager,PRJ-008,Data Analysis,Exc
 REC-08075,2025-06-17,19:40:00,DEV-0369,Content Writer,PRJ-021,Debugging,Tableau,Focused,8.1,185.0,1,Notification,156.9,6,1.8,14.9,2,3.0,0,Tablet,Windows 10,Low,Completed,71.8
 REC-08076,2025-04-07,19:08:00,DEV-0638,Business Analyst,PRJ-017,Testing,Android Studio,Focused,7.9,186.0,4,Notification,215.7,1,33.7,29.9,1,6.2,45,Laptop,Windows 11,Medium,Blocked,85.6
 REC-08077,2025-05-04,13:04:00,DEV-0375,Qa Engineer,PRJ-002,Research,Visual Studio,Multitasking,5.7,74.0,2,Notification,183.0,0,73.0,17.8,2,5.0,0,Desktop,Linux Mint,Critical,Blocked,91.6
-REC-08078,31/31/2025,19:17:00,DEV-0393,Content Writer,PRJ-027,Testing,Eclipse,Focused,4.9,39.0,2,Notification,109.8,5,24.4,90.1,2,3.1,90,Tablet,Windows 11,Critical,Abandoned,98.3
+REC-08078,2025-05-04,19:17:00,DEV-0393,Content Writer,PRJ-027,Testing,Eclipse,Focused,4.9,39.0,2,Notification,109.8,5,24.4,90.1,2,3.1,90,Tablet,Windows 11,Critical,Abandoned,98.3
 REC-08079,2025-03-29,18:16:00,DEV-0573,Designer,PRJ-018,Design,Vs Code,Flow,3.6,70.0,5,Email,103.0,1,41.0,37.5,2,5.2,30,Desktop,macOS,Low,Completed,89.8
 REC-08080,2025-05-03,19:27:00,DEV-0166,Data Analyst,PRJ-029,Debugging,Vs Code,Focused,6.3,39.0,3,Message,155.8,5,39.0,47.5,1,9.5,0,Laptop,Linux Mint,Low,Abandoned,51.8
 REC-08081,2025-05-10,19:10:00,DEV-0074,Product Manager,PRJ-028,Coding,Power BI,Interrupted,6.5,152.0,3,Message,147.9,3,80.0,41.1,6,3.9,15,Tablet,Linux Mint,High,Blocked,89.7
@@ -8424,7 +8424,7 @@ REC-08422,2025-05-31,14:47:00,DEV-0370,Qa Engineer,PRJ-029,Data Analysis,Figma,F
 REC-08423,2025-12-24,15:12:00,DEV-0638,Data Analyst,PRJ-001,Design,Visual Studio,Focused,5.8,170.0,2,Notification,190.7,6,81.2,40.5,3,6.8,30,Tablet,Ubuntu,Critical,Blocked,62.8
 REC-08424,2025-07-28,17:15:00,DEV-0317,Qa Engineer,PRJ-012,Documentation,Power BI,Interrupted,8.1,51.0,4,Notification,219.7,1,51.0,15.8,2,4.2,0,Tablet,Windows 11,Low,Completed,76.6
 REC-08425,2025-01-06,21:59:00,DEV-0134,Data Analyst,PRJ-021,Testing,Power BI,Blocked,5.9,33.0,2,Meeting,160.2,5,33.0,93.8,2,6.5,45,Laptop,Linux Mint,Low,Blocked,78.2
-REC-08426,not_a_date,03:48:00,DEV-0667,Qa Engineer,PRJ-007,Coding,Visual Studio,Flow,5.0,212.0,3,Message,169.4,5,87.6,77.7,0,6.3,90,Tablet,Windows 10,Low,Abandoned,100.0
+REC-08426,2025-01-06,03:48:00,DEV-0667,Qa Engineer,PRJ-007,Coding,Visual Studio,Flow,5.0,212.0,3,Message,169.4,5,87.6,77.7,0,6.3,90,Tablet,Windows 10,Low,Abandoned,100.0
 REC-08427,2025-12-25,23:32:00,DEV-0051,Researcher,PRJ-027,Documentation,Jupyter Notebook,Blocked,5.9,105.0,2,Colleague Question,109.7,7,47.8,47.6,0,5.3,0,Desktop,Windows 10,Medium,Partially Completed,88.7
 REC-08428,2025-08-13,15:54:00,DEV-0198,Developer,PRJ-029,Research,Visual Studio,Blocked,8.0,240.0,3,Colleague Question,94.6,6,6.7,99.6,2,5.2,30,Laptop,macOS,Medium,Completed,87.1
 REC-08429,2025-09-22,08:08:00,DEV-0168,Designer,PRJ-022,Coding,Tableau,Interrupted,5.0,124.0,0,Message,115.9,0,46.8,95.6,0,6.0,45,Desktop,Windows 10,Medium,Completed,82.5
@@ -8628,7 +8628,7 @@ REC-08626,2025-03-14,02:10:00,DEV-0440,Content Writer,PRJ-017,Coding,Figma,Focus
 REC-08627,2025-08-05,20:37:00,DEV-0207,Developer,PRJ-017,Learning,Android Studio,Blocked,6.5,30.0,2,Message,184.6,7,30.0,95.5,2,4.6,0,Desktop,Ubuntu,Low,Completed,69.7
 REC-08628,2025-10-30,01:37:00,DEV-0348,Content Writer,PRJ-002,Testing,Webstorm,Idle,7.3,47.0,0,Notification,195.7,5,47.0,74.6,2,9.3,60,Laptop,Windows 10,Medium,Completed,50.8
 REC-08629,2025-03-10,09:20:00,DEV-0385,Designer,PRJ-021,Meeting,Excel,Focused,3.0,65.0,2,Colleague Question,170.9,8,65.0,69.6,0,8.4,0,Tablet,Ubuntu,Critical,Completed,90.2
-REC-08630,2025-13-45,11:37:00,DEV-0700,Designer,PRJ-018,Documentation,Power BI,Interrupted,6.8,99.0,3,Email,327.7,3,11.2,25.0,0,10.0,15,Laptop,Windows 10,Critical,Blocked,100.0
+REC-08630,2025-03-10,11:37:00,DEV-0700,Designer,PRJ-018,Documentation,Power BI,Interrupted,6.8,99.0,3,Email,327.7,3,11.2,25.0,0,10.0,15,Laptop,Windows 10,Critical,Blocked,100.0
 REC-08631,2025-11-30,09:39:00,DEV-0224,Product Manager,PRJ-028,Learning,Pycharm,Focused,5.5,33.0,1,Message,284.4,7,33.0,15.2,1,4.3,60,Desktop,Linux Mint,High,Partially Completed,100.0
 REC-08632,2025-01-16,16:09:00,DEV-0484,Researcher,PRJ-006,Meeting,Figma,Idle,7.7,232.0,3,Notification,209.2,3,11.8,50.4,2,4.3,90,Tablet,Linux Mint,Critical,Abandoned,83.4
 REC-08633,2025-04-20,13:47:00,DEV-0329,Qa Engineer,PRJ-018,Research,Pycharm,Flow,5.9,181.0,0,No Interruption,111.4,1,37.8,91.4,0,8.6,45,Laptop,Linux Mint,High,Partially Completed,81.2
@@ -8700,7 +8700,7 @@ REC-08698,2025-05-05,01:05:00,DEV-0396,Data Analyst,PRJ-007,Coding,Excel,Interru
 REC-08699,2025-07-13,05:40:00,DEV-0148,Business Analyst,PRJ-013,Debugging,Figma,Focused,7.7,50.0,2,Colleague Question,164.7,6,32.1,86.7,1,7.0,30,Desktop,Windows 11,Medium,Blocked,59.3
 REC-08700,2025-07-19,20:22:00,DEV-0455,Designer,PRJ-022,Code Review,Jupyter Notebook,Interrupted,3.3,158.0,2,Unspecified,168.5,3,6.9,50.0,3,7.4,45,Laptop,Windows 10,Low,Blocked,57.6
 REC-08701,2025-05-21,03:14:00,DEV-0718,Qa Engineer,PRJ-026,Debugging,Power BI,Flow,2.8,149.0,0,Meeting,131.8,7,26.3,86.8,1,10.0,60,Desktop,Ubuntu,High,Completed,57.6
-REC-08702,not_a_date,17:58:00,DEV-0544,Developer,PRJ-009,Code Review,Eclipse,Flow,3.6,81.0,1,Colleague Question,215.4,7,56.5,58.7,1,4.6,90,Tablet,Linux Mint,Critical,Abandoned,76.5
+REC-08702,2025-05-21,17:58:00,DEV-0544,Developer,PRJ-009,Code Review,Eclipse,Flow,3.6,81.0,1,Colleague Question,215.4,7,56.5,58.7,1,4.6,90,Tablet,Linux Mint,Critical,Abandoned,76.5
 REC-08703,2025-05-12,12:23:00,DEV-0718,Qa Engineer,PRJ-010,Debugging,Android Studio,Interrupted,2.0,45.0,3,Meeting,104.5,1,45.0,52.7,3,7.0,30,Tablet,Windows 11,Low,Partially Completed,70.4
 REC-08704,2025-07-29,20:02:00,DEV-0442,Researcher,PRJ-030,Debugging,Jupyter Notebook,Idle,8.7,6.0,3,Unspecified,236.6,5,6.0,61.7,0,9.4,30,Tablet,macOS,Medium,Partially Completed,93.3
 REC-08705,2025-01-02,07:44:00,DEV-0332,Designer,PRJ-005,Coding,Power BI,Idle,3.4,183.0,6,Email,328.3,9,76.9,71.0,4,3.9,60,Desktop,macOS,Medium,Blocked,45.5
@@ -8865,7 +8865,7 @@ REC-08863,2025-09-23,21:32:00,DEV-0265,Content Writer,PRJ-002,Debugging,Pycharm,
 REC-08864,2025-04-16,03:08:00,DEV-0401,Designer,PRJ-006,Code Review,Intellij Idea,Focused,1.0,90.0,0,Email,141.5,9,67.2,35.1,3,4.3,30,Laptop,Ubuntu,High,Blocked,96.9
 REC-08865,2025-03-02,07:29:00,DEV-0547,Researcher,PRJ-025,Documentation,Eclipse,Focused,1.2,108.0,5,Phone Call,87.8,7,27.5,32.6,2,5.5,15,Tablet,Linux Mint,Critical,Partially Completed,97.7
 REC-08866,2025-07-26,04:30:00,DEV-0208,Researcher,PRJ-008,Coding,Excel,Interrupted,6.0,146.0,4,Notification,147.0,4,15.6,69.8,1,4.3,45,Desktop,Ubuntu,Medium,Partially Completed,41.6
-REC-08867,2025-02-30,23:21:00,DEV-0167,Qa Engineer,PRJ-010,Data Analysis,Visual Studio,Interrupted,8.4,52.0,2,Phone Call,67.7,5,49.3,17.1,0,5.1,30,Tablet,Windows 10,Low,Completed,44.6
+REC-08867,2025-07-26,23:21:00,DEV-0167,Qa Engineer,PRJ-010,Data Analysis,Visual Studio,Interrupted,8.4,52.0,2,Phone Call,67.7,5,49.3,17.1,0,5.1,30,Tablet,Windows 10,Low,Completed,44.6
 REC-08868,2025-08-25,15:52:00,DEV-0562,Researcher,PRJ-003,Testing,Tableau,Interrupted,7.6,44.0,1,Phone Call,36.2,1,44.0,61.4,1,5.9,45,Desktop,Ubuntu,Medium,Completed,100.0
 REC-08869,2025-03-25,07:09:00,DEV-0491,Content Writer,PRJ-007,Design,Excel,Focused,8.2,98.0,3,Message,205.2,5,13.8,43.6,2,5.5,60,Desktop,Windows 11,Low,Blocked,83.4
 REC-08870,2025-04-17,13:34:00,DEV-0055,Designer,PRJ-002,Code Review,Webstorm,Flow,2.6,201.0,0,Meeting,141.0,5,47.1,35.7,3,4.1,45,Desktop,Windows 10,Critical,Completed,74.1
@@ -8908,7 +8908,7 @@ REC-08906,2025-07-04,13:15:00,DEV-0534,Data Analyst,PRJ-019,Data Analysis,Pychar
 REC-08907,2025-04-13,19:19:00,DEV-0649,Researcher,PRJ-009,Learning,Pycharm,Blocked,7.1,130.0,2,Colleague Question,188.8,1,85.0,80.3,3,7.2,45,Laptop,Windows 10,Critical,Partially Completed,79.8
 REC-08908,2025-11-27,11:07:00,DEV-0029,Content Writer,PRJ-015,Research,Pycharm,Blocked,9.0,120.0,2,Email,182.9,5,44.4,95.8,1,8.0,45,Desktop,Windows 11,Critical,Abandoned,83.0
 REC-08909,2025-06-19,23:49:00,DEV-0407,Designer,PRJ-009,Meeting,Visual Studio,Focused,6.3,16.0,0,Email,107.6,5,16.0,75.2,1,4.0,90,Laptop,Linux Mint,Medium,Partially Completed,49.2
-REC-08910,2025/14/01,18:58:00,DEV-0223,Content Writer,PRJ-025,Code Review,Figma,Interrupted,7.9,140.0,3,Email,252.2,7,8.1,40.2,1,6.0,90,Tablet,macOS,Critical,Blocked,87.7
+REC-08910,2025-06-19,18:58:00,DEV-0223,Content Writer,PRJ-025,Code Review,Figma,Interrupted,7.9,140.0,3,Email,252.2,7,8.1,40.2,1,6.0,90,Tablet,macOS,Critical,Blocked,87.7
 REC-08911,2025-11-30,04:31:00,DEV-0533,Researcher,PRJ-018,Meeting,Power BI,Interrupted,6.2,144.0,4,Message,199.7,7,78.1,11.5,1,6.2,60,Laptop,Windows 11,Critical,Abandoned,52.6
 REC-08912,2025-12-03,18:12:00,DEV-0154,Developer,PRJ-005,Design,Eclipse,Interrupted,5.3,213.0,0,No Interruption,81.0,4,21.8,10.3,3,4.6,60,Desktop,Ubuntu,High,Abandoned,75.3
 REC-08913,2025-10-27,11:05:00,DEV-0760,Product Manager,PRJ-022,Code Review,Intellij Idea,Blocked,5.2,53.0,1,Unspecified,138.8,6,53.0,65.5,4,8.4,60,Desktop,Windows 10,High,Completed,86.4
@@ -9014,7 +9014,7 @@ REC-09012,2025-07-26,23:40:00,DEV-0645,Qa Engineer,PRJ-016,Research,Android Stud
 REC-09013,2025-05-25,03:23:00,DEV-0370,Business Analyst,PRJ-026,Coding,Jupyter Notebook,Unknown,7.1,136.0,5,Unspecified,137.1,7,42.2,27.8,0,7.9,0,Tablet,Windows 10,Critical,Blocked,43.1
 REC-09014,2025-03-03,20:23:00,DEV-0639,Business Analyst,PRJ-014,Meeting,Tableau,Blocked,4.6,89.0,1,Notification,211.8,4,74.6,50.8,2,4.8,45,Desktop,Linux Mint,High,Abandoned,62.3
 REC-09015,2025-06-19,03:52:00,DEV-0279,Product Manager,PRJ-007,Data Analysis,Android Studio,Idle,7.8,209.0,1,Notification,315.2,5,64.2,89.1,1,5.5,30,Tablet,macOS,High,Abandoned,82.4
-REC-09016,31/31/2025,23:01:00,DEV-0694,Developer,PRJ-003,Design,Figma,Flow,5.9,16.0,0,Notification,190.6,1,16.0,93.1,2,5.1,60,Laptop,Windows 11,Critical,Blocked,79.2
+REC-09016,2025-06-19,23:01:00,DEV-0694,Developer,PRJ-003,Design,Figma,Flow,5.9,16.0,0,Notification,190.6,1,16.0,93.1,2,5.1,60,Laptop,Windows 11,Critical,Blocked,79.2
 REC-09017,2025-10-04,17:15:00,DEV-0400,Developer,PRJ-028,Code Review,Tableau,Focused,6.6,145.0,0,Message,190.9,10,73.0,98.6,1,5.2,90,Laptop,Windows 11,Medium,Blocked,55.0
 REC-09018,2025-03-24,22:01:00,DEV-0533,Content Writer,PRJ-025,Code Review,Vs Code,Multitasking,4.8,121.0,0,Colleague Question,81.5,5,5.0,64.8,2,5.7,60,Desktop,Windows 11,High,Completed,75.3
 REC-09019,2025-03-06,20:24:00,DEV-0296,Content Writer,PRJ-010,Code Review,Excel,Idle,4.6,73.0,3,Notification,153.8,6,42.5,83.4,1,6.4,15,Desktop,Windows 10,Critical,Blocked,81.4
@@ -9444,7 +9444,7 @@ REC-09442,2025-10-22,16:42:00,DEV-0465,Qa Engineer,PRJ-006,Design,Tableau,Blocke
 REC-09443,2025-09-21,06:45:00,DEV-0332,Data Analyst,PRJ-028,Meeting,Visual Studio,Interrupted,3.4,139.0,2,Phone Call,163.0,5,1.1,97.4,0,9.2,45,Desktop,Linux Mint,Critical,Abandoned,74.4
 REC-09444,2025-06-23,10:44:00,DEV-0251,Designer,PRJ-012,Code Review,Eclipse,Focused,4.7,138.0,3,Email,137.2,3,72.4,29.4,0,5.3,30,Desktop,Windows 10,High,Partially Completed,57.5
 REC-09445,2025-09-02,13:46:00,DEV-0414,Designer,PRJ-013,Meeting,Android Studio,Interrupted,7.1,106.0,1,Notification,199.9,9,36.9,87.6,0,4.9,60,Tablet,Linux Mint,High,Abandoned,70.4
-REC-09446,2025/14/01,12:37:00,DEV-0315,Data Analyst,PRJ-024,Research,Eclipse,Focused,4.6,37.0,5,Email,221.8,4,37.0,59.2,1,4.9,30,Tablet,Linux Mint,Low,Blocked,47.2
+REC-09446,2025-09-02,12:37:00,DEV-0315,Data Analyst,PRJ-024,Research,Eclipse,Focused,4.6,37.0,5,Email,221.8,4,37.0,59.2,1,4.9,30,Tablet,Linux Mint,Low,Blocked,47.2
 REC-09447,2025-11-10,08:26:00,DEV-0103,Data Analyst,PRJ-020,Meeting,Intellij Idea,Focused,4.5,51.0,0,Email,95.1,2,46.0,95.6,4,4.7,30,Desktop,Windows 11,Medium,Blocked,73.1
 REC-09448,2025-01-25,04:53:00,DEV-0633,Researcher,PRJ-013,Debugging,Eclipse,Focused,1.5,134.0,1,Notification,125.0,0,48.3,42.3,0,7.7,60,Desktop,Windows 11,Medium,Blocked,71.1
 REC-09449,2025-02-20,03:02:00,DEV-0735,Business Analyst,PRJ-021,Learning,Excel,Interrupted,3.2,196.0,0,Email,193.5,4,56.2,91.3,0,8.5,45,Tablet,Windows 10,Medium,Abandoned,72.4
@@ -9761,7 +9761,7 @@ REC-09759,2025-06-05,12:38:00,DEV-0420,Product Manager,PRJ-001,Learning,Eclipse,
 REC-09760,2025-12-16,01:48:00,DEV-0487,Researcher,PRJ-030,Research,Visual Studio,Flow,4.6,204.0,3,Notification,188.5,9,59.3,77.8,0,4.0,30,Tablet,Linux Mint,High,Blocked,89.1
 REC-09761,2025-12-30,13:22:00,DEV-0005,Designer,PRJ-014,Documentation,Tableau,Multitasking,7.3,148.0,5,Notification,141.3,5,79.8,66.2,3,5.3,15,Tablet,Windows 10,Critical,Completed,48.5
 REC-09762,2025-10-04,03:02:00,DEV-0289,Business Analyst,PRJ-028,Data Analysis,Intellij Idea,Interrupted,4.8,176.0,4,Colleague Question,137.9,3,5.6,43.1,2,9.0,30,Tablet,Windows 10,Critical,Completed,83.7
-REC-09763,2025-13-45,19:51:00,DEV-0332,Data Analyst,PRJ-002,Data Analysis,Jupyter Notebook,Multitasking,5.7,191.0,1,Notification,234.9,2,61.6,56.6,1,6.7,30,Tablet,Windows 11,Low,Abandoned,48.4
+REC-09763,2025-10-04,19:51:00,DEV-0332,Data Analyst,PRJ-002,Data Analysis,Jupyter Notebook,Multitasking,5.7,191.0,1,Notification,234.9,2,61.6,56.6,1,6.7,30,Tablet,Windows 11,Low,Abandoned,48.4
 REC-09764,2025-03-30,08:44:00,DEV-0146,Researcher,PRJ-002,Documentation,Vs Code,Flow,8.3,238.0,1,Unspecified,204.1,5,6.3,85.1,1,2.0,45,Desktop,Windows 11,Low,Completed,74.9
 REC-09765,2025-01-16,19:35:00,DEV-0048,Designer,PRJ-015,Code Review,Figma,Idle,7.6,21.0,3,Message,187.8,6,21.0,83.3,3,7.0,15,Desktop,Linux Mint,Low,Blocked,85.8
 REC-09766,2025-05-25,03:24:00,DEV-0126,Researcher,PRJ-011,Research,Intellij Idea,Multitasking,4.0,187.0,2,Unspecified,131.4,1,66.8,26.7,0,5.0,45,Desktop,Windows 10,Critical,Partially Completed,64.8

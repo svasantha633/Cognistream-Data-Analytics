@@ -54,7 +54,7 @@ def run_clean_pipeline():
         if col in df.columns:
             mode_s = df[col].dropna().mode()
             df[col] = df[col].fillna(mode_s[0] if len(mode_s) > 0 else default_val)
-    df['Session_Date'] = df['Session_Date'].ffill().fillna('2025-01-01')
+    df['Session_Date'] = pd.to_datetime(df['Session_Date'], errors='coerce').ffill().fillna(pd.Timestamp('2025-01-01')).dt.strftime('%Y-%m-%d')
 
     # Step 2: Exact duplicate removal
     exact_dups = df.duplicated().sum()
