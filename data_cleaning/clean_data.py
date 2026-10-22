@@ -82,8 +82,10 @@ def run_clean_pipeline():
     df['Flow_State'] = df['Flow_State'].str.lower().map(flow_map).fillna(df['Flow_State'].str.title())
 
     for col in ['Role', 'Task_Type', 'Application_Used', 'Interruption_Type']:
-        df[col] = df[col].apply(lambda x: ' '.join(w.capitalize() if w.lower() not in ['ide', 'ai', 'bi', 'ui', 'ux'] else w.upper() for w in str(x).split()))
-    df['Interruption_Type'] = df['Interruption_Type'].replace({'None': 'No Interruption', 'Nan': 'No Interruption'})
+        df[col] = df[col].apply(lambda x: ' '.join(w.capitalize() if w.lower() not in ['ide', 'ai', 'bi', 'ui', 'ux', 'qa'] else w.upper() for w in str(x).split()))
+    df['Role'] = df['Role'].replace({'-': 'Developer', 'Unknown': 'Developer', 'Qa Engineer': 'QA Engineer'})
+    df['Application_Used'] = df['Application_Used'].replace({'-': 'IDE', 'Unknown': 'IDE'})
+    df['Interruption_Type'] = df['Interruption_Type'].replace({'None': 'No Interruption', 'Nan': 'No Interruption', '-': 'Unspecified'})
 
     # Step 4: Scale validation
     df['Cognitive_Load_Score'] = df['Cognitive_Load_Score'].clip(lower=1.0, upper=10.0).round(1)
