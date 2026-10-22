@@ -74,3 +74,31 @@ print(df.dtypes)
 # Calculate basic statistics
 print("Basic Statistics:")
 print(df.describe())
+
+
+# Analyze Developer Flow State Data
+
+# Display basic information about the dataset
+print("Developer Flow State Data Analysis")
+
+print("\nDataset Shape:")
+print(df.shape)
+
+print("\nColumn Names:")
+print(df.columns.tolist())
+
+# Analyze numerical columns
+print("\nNumerical Data Summary:")
+print(df.describe())
+
+# Check data types
+print("\nData Types:")
+print(df.dtypes)
+
+# Check missing values
+print("\nMissing Values:")
+print(df.isnull().sum())
+
+# Check duplicate records
+print("\nDuplicate Records:")
+print(df.duplicated().sum())
