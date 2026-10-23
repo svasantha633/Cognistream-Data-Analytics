@@ -102,3 +102,43 @@ print(df.isnull().sum())
 # Check duplicate records
 print("\nDuplicate Records:")
 print(df.duplicated().sum())
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the Cognistream dataset
+df = pd.read_excel(
+    "data/Cognistream _Developer _Flow_state_Cognitive_Load_10000.xlsx"
+)
+
+# Display cognitive load columns
+cognitive_columns = [
+    col for col in df.columns
+    if "cognitive" in col.lower() or "load" in col.lower()
+]
+
+print("Cognitive Load Columns:")
+print(cognitive_columns)
+
+# Display basic statistics
+if cognitive_columns:
+    print("\nCognitive Load Statistics:")
+    print(df[cognitive_columns].describe())
+
+    # Check missing values
+    print("\nMissing Values:")
+    print(df[cognitive_columns].isnull().sum())
+
+    # Plot cognitive load distributions
+    for col in cognitive_columns:
+        if pd.api.types.is_numeric_dtype(df[col]):
+            df[col].dropna().hist(bins=20)
+            plt.title(f"Distribution of {col}")
+            plt.xlabel(col)
+            plt.ylabel("Frequency")
+            plt.tight_layout()
+            plt.show()
+else:
+    print("No cognitive load columns found.")
+    print("Available columns:", df.columns.tolist())
