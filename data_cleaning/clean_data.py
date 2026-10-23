@@ -55,6 +55,22 @@ def run_clean_pipeline():
             mode_s = df[col].dropna().mode()
             df[col] = df[col].fillna(mode_s[0] if len(mode_s) > 0 else default_val)
     df['Session_Date'] = pd.to_datetime(df['Session_Date'], errors='coerce').ffill().fillna(pd.Timestamp('2025-01-01')).dt.strftime('%Y-%m-%d')
+    def clean_time(t):
+        t_str = str(t).strip()
+        if t_str == '9 PM':
+            return '21:00:00'
+        try:
+            parts = t_str.split(':')
+            if len(parts) >= 2:
+                hh, mm = int(parts[0]), int(parts[1])
+                ss = int(parts[2]) if len(parts) >= 3 else 0
+                if 0 <= hh <= 23 and 0 <= mm <= 59 and 0 <= ss <= 59:
+                    return f"{hh:02d}:{mm:02d}:{ss:02d}"
+        except Exception:
+            pass
+        return '09:00:00'
+
+    df['Session_Start_Time'] = df['Session_Start_Time'].apply(clean_time)
 
     # Step 2: Exact duplicate removal
     exact_dups = df.duplicated().sum()
