@@ -142,3 +142,55 @@ if cognitive_columns:
 else:
     print("No cognitive load columns found.")
     print("Available columns:", df.columns.tolist())
+
+
+import pandas as pd
+import numpy as np
+
+# Load the Cognistream dataset
+file_path = "../data/Cognistream _Developer _Flow_state_Cognitive_Load_10000.xlsx"
+df = pd.read_excel(file_path)
+
+# Select relevant numerical variables
+variables = [
+    "Flow_State_Score",
+    "Cognitive_Load_Score",
+    "Focus_Level",
+    "Productivity_Score"
+]
+
+# Keep only columns available in the dataset
+available_variables = [
+    col for col in variables if col in df.columns
+]
+
+print("Relevant Variables Found:")
+print(available_variables)
+
+if len(available_variables) >= 2:
+    # Calculate correlations between variables
+    correlation_matrix = df[available_variables].corr(
+        numeric_only=True
+    )
+
+    print("\nCorrelation Matrix:")
+    print(correlation_matrix)
+
+    print("\nStrong Relationships:")
+    for i in range(len(available_variables)):
+        for j in range(i + 1, len(available_variables)):
+            col1 = available_variables[i]
+            col2 = available_variables[j]
+
+            correlation = correlation_matrix.loc[col1, col2]
+
+            if pd.notna(correlation):
+                print(
+                    f"{col1} vs {col2}: "
+                    f"Correlation = {correlation:.3f}"
+                )
+else:
+    print(
+        "\nPlease check the dataset column names "
+        "and select at least two numerical variables."
+    )
