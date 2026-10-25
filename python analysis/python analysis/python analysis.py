@@ -194,3 +194,35 @@ else:
         "\nPlease check the dataset column names "
         "and select at least two numerical variables."
     )
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+from google.colab import files
+
+# Upload Excel dataset
+uploaded = files.upload()
+df = pd.read_excel(next(iter(uploaded)))
+
+# Display column names
+print("Dataset shape:", df.shape)
+print("Columns:", df.columns.tolist())
+
+# Plot average values of numeric columns
+numeric_df = df.select_dtypes(include="number")
+
+if not numeric_df.empty:
+    numeric_df.mean().plot(kind="bar", figsize=(10, 5))
+    plt.title("Developer Flow State Chart Analysis")
+    plt.xlabel("Metrics")
+    plt.ylabel("Average Value")
+    plt.xticks(rotation=45, ha="right")
+    plt.tight_layout()
+    plt.savefig("developer_flow_state_chart.png")
+    plt.show()
+    print("Chart created successfully!")
+else:
+    print("No numeric columns found in the dataset.")
+
+
+
