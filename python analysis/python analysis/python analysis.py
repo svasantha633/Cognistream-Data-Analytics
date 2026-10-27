@@ -226,3 +226,58 @@ else:
 
 
 
+import pandas as pd
+import matplotlib.pyplot as plt
+from google.colab import files
+
+# 1. Upload the dataset
+uploaded = files.upload()
+file_name = next(iter(uploaded))
+
+# 2. Load the Excel dataset
+df = pd.read_excel(file_name)
+
+# 3. Clean column names
+df.columns = df.columns.str.strip()
+
+print("Dataset shape:", df.shape)
+print("Columns:", df.columns.tolist())
+
+# 4. Identify the cognitive load column
+matches = [
+    col for col in df.columns
+    if "cognitive" in col.lower() and "load" in col.lower()
+]
+
+if not matches:
+    print("Cognitive Load column not found.")
+    print("Please check the column names printed above.")
+else:
+    col = matches[0]
+
+    # 5. Convert values to numeric
+    load = pd.to_numeric(df[col], errors="coerce").dropna()
+
+    if load.empty:
+        print("No valid numeric Cognitive Load values found.")
+    else:
+        # 6. Create distribution chart
+        plt.figure(figsize=(9, 5))
+        plt.hist(load, bins=20, edgecolor="black")
+
+        plt.title("Cognitive Load Distribution Among Developers")
+        plt.xlabel("Cognitive Load")
+        plt.ylabel("Frequency")
+        plt.grid(axis="y", alpha=0.3)
+        plt.tight_layout()
+        plt.show()
+
+        # 7. Display summary statistics
+        print("\nCognitive Load Statistics")
+        print("Valid records:", len(load))
+        print("Mean:", round(load.mean(), 2))
+        print("Median:", round(load.median(), 2))
+        print("Standard deviation:", round(load.std(), 2))
+        print("Minimum:", round(load.min(), 2))
+        print("Maximum:", round(load.max(), 2))
+
