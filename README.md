@@ -281,3 +281,82 @@ This analysis provides an initial visual summary of the numerical variables in t
 
 ### 8. Limitation
 The chart displays the averages of all numerical columns rather than isolating flow-state variables specifically. Therefore, it should be treated as an overall numerical-metrics chart, not as a dedicated flow-state score chart. Further analysis should select the relevant flow-state and cognitive-load variables and interpret them according to their definitions and measurement scales.
+
+
+# Cognitive Load Distribution Among Developers
+
+## 1. Objective
+
+The objective of this analysis is to understand the distribution of cognitive load values in the Cognistream developer dataset. It helps examine how cognitive load varies across the recorded observations and identify the overall pattern of mental workload.
+
+## 2. Tools and Libraries Used
+
+- **Python:** Used to perform the analysis.
+- **Pandas:** Used to load the Excel dataset, clean column names, and process cognitive load values.
+- **Matplotlib:** Used to create the cognitive load distribution histogram.
+- **Google Colab:** Used to execute the Python code and display the results.
+
+## 3. Methodology
+
+The analysis was performed through the following steps:
+
+1. **Dataset Upload:** Uploaded the Excel dataset into Google Colab.
+2. **Data Loading:** Loaded the Excel file into a Pandas DataFrame.
+3. **Column Name Cleaning:** Removed leading and trailing spaces from column names.
+4. **Dataset Inspection:** Displayed the dataset dimensions and column names.
+5. **Cognitive Load Identification:** Automatically searched for a column containing both the words "cognitive" and "load".
+6. **Data Conversion:** Converted cognitive load values into numeric format. Invalid or missing values were excluded from the analysis.
+7. **Distribution Visualization:** Created a histogram using 20 bins to show the frequency distribution of cognitive load values.
+8. **Statistical Analysis:** Calculated the number of valid records, mean, median, standard deviation, minimum, and maximum.
+
+## 4. Cognitive Load Distribution Analysis
+
+A histogram was generated to visualize the distribution of cognitive load values in the dataset.
+
+- **X-axis:** Cognitive Load values.
+- **Y-axis:** Frequency, representing the number of observations within each interval.
+- **Number of bins:** 20.
+
+The histogram helps identify where cognitive load values are concentrated and whether the observations are spread across a narrow or wide range.
+
+**Note:** This code analyzes the overall distribution of cognitive load values. It does not group the data by individual developers.
+
+## 5. Descriptive Statistics
+
+The following statistical measures were calculated:
+
+| Statistical Measure | Purpose |
+|---|---|
+| Valid Records | Number of numeric cognitive load values included in the analysis |
+| Mean | Average cognitive load value |
+| Median | Middle value of the cognitive load observations |
+| Standard Deviation | Measures the variability of cognitive load values |
+| Minimum | Lowest recorded cognitive load value |
+| Maximum | Highest recorded cognitive load value |
+
+These measures provide a numerical summary of the dataset and help explain the central tendency and variability of cognitive load.
+
+
+## Key Findings
+
+- The cognitive load histogram provides an overview of the distribution and frequency of recorded cognitive load values.
+- The mean identifies the average cognitive load across valid observations.
+- The median indicates the middle cognitive load value and helps understand the central tendency of the data.
+- The standard deviation measures the variability of cognitive load values.
+- The minimum and maximum values identify the lowest and highest recorded cognitive load values.
+- Comparing the mean and median, along with the histogram, can help reveal the distribution pattern of cognitive load observations.
+
+**Note:** The actual mean, median, standard deviation, minimum, maximum, and valid record count should be included after running the Python code. These numerical results are needed to support specific findings.
+
+## 7. Conclusion
+
+The cognitive load distribution analysis provides an overview of the mental workload values recorded in the Cognistream dataset. The histogram presents the frequency distribution, while descriptive statistics summarize the average, central value, variability, and range of the observations.
+
+This analysis establishes a foundation for further investigation into developer cognitive load and flow state.
+
+## 8. Limitations
+
+- The analysis covers only valid numeric cognitive load values.
+- Missing and invalid values are excluded after numeric conversion.
+- The histogram shows the overall distribution rather than developer-specific comparisons.
+- Cognitive load alone does not explain developer productivity or performance.
