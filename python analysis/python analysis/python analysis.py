@@ -281,3 +281,32 @@ else:
         print("Minimum:", round(load.min(), 2))
         print("Maximum:", round(load.max(), 2))
 
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Standardize task type names
+df["Task_Type_Clean"] = (
+    df["Task_Type"]
+    .astype(str)
+    .str.strip()
+    .str.title()
+)
+
+# Count developer activities
+activity_counts = df["Task_Type_Clean"].value_counts()
+
+# Plot chart
+plt.figure(figsize=(10, 6))
+activity_counts.sort_values().plot(kind="barh")
+
+plt.title("Developer Activity by Task Type")
+plt.xlabel("Number of Records")
+plt.ylabel("Task Type")
+plt.tight_layout()
+plt.show()
+
+# Display summary
+print("Developer Activity Summary:")
+print(activity_counts)
