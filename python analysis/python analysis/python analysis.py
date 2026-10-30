@@ -310,3 +310,40 @@ plt.show()
 # Display summary
 print("Developer Activity Summary:")
 print(activity_counts)
+
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load dataset
+df = pd.read_excel('/content/CogniStream_Developer_Flow_State_Cognitive_Load_10000 (2).xlsx')
+
+# Select relevant metrics
+metrics = [
+    'Cognitive_Load_Score',
+    'Task_Duration_Minutes',
+    'Interruptions_Count',
+    'Task_Completion_Percent',
+    'Flow_Efficiency_Score',
+    'Self_Reported_Focus_Score'
+]
+
+# Calculate average values
+avg_metrics = df[metrics].mean()
+
+# Display comparison
+print("Comparison of Relevant Metrics")
+print(avg_metrics)
+
+# Create bar chart
+plt.figure(figsize=(12, 6))
+avg_metrics.plot(kind='bar', edgecolor='black')
+
+plt.title('Comparison of Relevant Developer Metrics')
+plt.xlabel('Developer Metrics')
+plt.ylabel('Average Values')
+plt.xticks(rotation=35, ha='right')
+plt.grid(axis='y', linestyle='--', alpha=0.5)
+plt.tight_layout()
+plt.show()
