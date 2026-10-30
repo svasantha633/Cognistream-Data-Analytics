@@ -42,22 +42,33 @@ total_missing = missing_values.sum()
 print("\nTotal Missing Values:",
 total_missing)
 
+
 import pandas as pd
 
-df = pd.read_excel("data/CogniStream_Developer_Flow_State_Cognitive_Load_10000.xlsx")
+# Load dataset
+df = pd.read_excel('/content/CogniStream_Developer_Flow_State_Cognitive_Load_10000 (2).xlsx')
 
-# Check for duplicate rows in the dataset
+# Check missing values
+missing_values = df.isnull().sum()
 
-duplicate_count =
-df.duplicated().sum()
+print("Missing Values in Each Column:")
+print(missing_values)
 
-print("Number of duplicate rows:",
-duplicate_count)
+print("\nTotal Missing Values:", df.isnull().sum().sum())
 
-# Display duplicate rows
-duplicate_rows = df[df.duplicated()]
 
-print(duplicate_rows)
+
+# Check duplicate records
+duplicate_count = df.duplicated().sum()
+
+print("Total Duplicate Records:", duplicate_count)
+
+# Display duplicate records
+duplicates = df[df.duplicated()]
+
+print("\nDuplicate Records:")
+print(duplicates)
+
 
 # Review data types
 print(df.dtypes)
@@ -71,9 +82,34 @@ print(df.head())
 print(df.shape)
 print(df.dtypes)
 
+
+import pandas as pd
+
+# Load dataset
+df = pd.read_excel('/content/CogniStream_Developer_Flow_State_Cognitive_Load_10000 (2).xlsx')
+
+# Select numerical columns
+numerical_data = df.select_dtypes(include='number')
+
 # Calculate basic statistics
-print("Basic Statistics:")
-print(df.describe())
+statistics = numerical_data.describe()
+
+# Display results
+print("BASIC STATISTICAL ANALYSIS")
+print(statistics)
+
+# Additional statistical measures
+print("\nMean:")
+print(numerical_data.mean())
+
+print("\nMedian:")
+print(numerical_data.median())
+
+print("\nMode:")
+print(numerical_data.mode().iloc[0])
+
+print("\nStandard Deviation:")
+print(numerical_data.std())
 
 
 # Analyze Developer Flow State Data
