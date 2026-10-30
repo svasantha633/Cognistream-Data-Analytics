@@ -1,9 +1,9 @@
 """
-Project :Second Project
-Purpose :Python Data Analysis
-This file will contain the 
-python analysis
-for our project dataset.
+Project : Cognistream - Developer Flow State and cognitive Load Analytics
+
+Purpose:
+To perform python based data analsis on developer activity,flowstate,and cognitive load.
+This file contain data loading ,data cleaning,statistical analysis,visualization,and key insights.
 """
 import pandas as pd
 import numpy as np
@@ -13,12 +13,11 @@ print("python analysis environment initialization")
 #Commit 3: Load and inspect the dataset
 
 df = pd.read_excel(
-   "../Data/
-CogniStream_Developer_Flow_State_Cog
-nitive_Load_10000.xlsx"
+   "/Data/CogniStream
+   _Developer_Flow_State_Cognitive_Load_10000.xlsx"
 )
 
-print("First 5 rows:")
+print("First Five rows:")
 print(df.head())
 
 print("\nColumn names:")
@@ -32,61 +31,31 @@ df.info()
 
 print("\nSummary statistics:")
 print(df.describe(include="all"))
-# Missing Values Analysis
 
+# Missing Values Analysis
 print("\nMissing Values Analysis:")
 missing_values = df.isnull().sum()
+print("missing_values")
 print(missing_values)
 
 total_missing = missing_values.sum()
 print("\nTotal Missing Values:",
 total_missing)
 
-
-import pandas as pd
-
-# Load dataset
-df = pd.read_excel('/content/CogniStream_Developer_Flow_State_Cognitive_Load_10000 (2).xlsx')
-
-# Check missing values
-missing_values = df.isnull().sum()
-
-print("Missing Values in Each Column:")
-print(missing_values)
-
-print("\nTotal Missing Values:", df.isnull().sum().sum())
-
-
-
 # Check duplicate records
 duplicate_count = df.duplicated().sum()
-
 print("Total Duplicate Records:", duplicate_count)
-
 # Display duplicate records
 duplicates = df[df.duplicated()]
-
 print("\nDuplicate Records:")
 print(duplicates)
-
 
 # Review data types
 print(df.dtypes)
 
 # Prepare data for analysis
-
 df.columns = df.columns.str.strip()
-
 print("Dataset prepared for analysis")
-print(df.head())
-print(df.shape)
-print(df.dtypes)
-
-
-import pandas as pd
-
-# Load dataset
-df = pd.read_excel('/content/CogniStream_Developer_Flow_State_Cognitive_Load_10000 (2).xlsx')
 
 # Select numerical columns
 numerical_data = df.select_dtypes(include='number')
@@ -111,49 +80,15 @@ print(numerical_data.mode().iloc[0])
 print("\nStandard Deviation:")
 print(numerical_data.std())
 
-
 # Analyze Developer Flow State Data
-
 # Display basic information about the dataset
 print("Developer Flow State Data Analysis")
-
-print("\nDataset Shape:")
-print(df.shape)
-
-print("\nColumn Names:")
-print(df.columns.tolist())
-
-# Analyze numerical columns
-print("\nNumerical Data Summary:")
-print(df.describe())
-
-# Check data types
-print("\nData Types:")
-print(df.dtypes)
-
-# Check missing values
-print("\nMissing Values:")
-print(df.isnull().sum())
-
-# Check duplicate records
-print("\nDuplicate Records:")
-print(df.duplicated().sum())
-
-
-import pandas as pd
-import matplotlib.pyplot as plt
-
-# Load the Cognistream dataset
-df = pd.read_excel(
-    "data/Cognistream _Developer _Flow_state_Cognitive_Load_10000.xlsx"
-)
 
 # Display cognitive load columns
 cognitive_columns = [
     col for col in df.columns
     if "cognitive" in col.lower() or "load" in col.lower()
 ]
-
 print("Cognitive Load Columns:")
 print(cognitive_columns)
 
@@ -178,14 +113,6 @@ if cognitive_columns:
 else:
     print("No cognitive load columns found.")
     print("Available columns:", df.columns.tolist())
-
-
-import pandas as pd
-import numpy as np
-
-# Load the Cognistream dataset
-file_path = "../data/Cognistream _Developer _Flow_state_Cognitive_Load_10000.xlsx"
-df = pd.read_excel(file_path)
 
 # Select relevant numerical variables
 variables = [
@@ -230,10 +157,6 @@ else:
         "\nPlease check the dataset column names "
         "and select at least two numerical variables."
     )
-
-
-import pandas as pd
-import matplotlib.pyplot as plt
 from google.colab import files
 
 # Upload Excel dataset
@@ -260,10 +183,6 @@ if not numeric_df.empty:
 else:
     print("No numeric columns found in the dataset.")
 
-
-
-import pandas as pd
-import matplotlib.pyplot as plt
 from google.colab import files
 
 # 1. Upload the dataset
@@ -317,11 +236,6 @@ else:
         print("Minimum:", round(load.min(), 2))
         print("Maximum:", round(load.max(), 2))
 
-
-
-import pandas as pd
-import matplotlib.pyplot as plt
-
 # Standardize task type names
 df["Task_Type_Clean"] = (
     df["Task_Type"]
@@ -346,11 +260,6 @@ plt.show()
 # Display summary
 print("Developer Activity Summary:")
 print(activity_counts)
-
-
-
-import pandas as pd
-import matplotlib.pyplot as plt
 
 # Load dataset
 df = pd.read_excel('/content/CogniStream_Developer_Flow_State_Cognitive_Load_10000 (2).xlsx')
