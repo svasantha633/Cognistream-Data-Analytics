@@ -456,13 +456,17 @@ To visually represent developer flow state, cognitive load, task duration, and i
 - Matplotlib
 - Excel Dataset
 
-### Visualizations Performed
-1. Developer Flow State Distribution – Visualized the frequency of different flow states.
-2. Cognitive Load Distribution – Displayed the distribution of cognitive load scores among developer sessions.
-3. Task Duration by Flow State – Compared average task duration across different flow states.
-4. Interruptions by Flow State – Compared average interruptions across different flow states.
-5. Cognitive Load Trend Over Time – Examined changes in average cognitive load across session dates.
 
+### Charts Created
+
+1. **Task Duration by Flow State** – Compared average task duration across different flow states.
+
+2. **Interruptions by Flow State** – Analysed average interruptions across different flow states.
+
+3. **Cognitive Load Trend Over Time** – Visualized changes in average cognitive load across session dates.
+
+4. **Flow Efficiency by Flow State** – Compared average flow efficiency across different flow states.
+   
 ### Visualization Techniques
 - Bar Chart
 - Histogram
