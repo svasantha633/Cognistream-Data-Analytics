@@ -354,9 +354,140 @@ The cognitive load distribution analysis provides an overview of the mental work
 
 This analysis establishes a foundation for further investigation into developer cognitive load and flow state.
 
+## 1. Visualize Developer Activity
+
+### Objective
+To visualize developer activity and understand working patterns using Python data visualization techniques.
+
+### Tools Used
+- Python
+- Pandas
+- Matplotlib
+- Excel dataset
+
+### Activities Performed
+- Loaded the Cognistream dataset using Pandas.
+- Identified important developer activity metrics.
+- Visualized developer activity using charts.
+- Compared coding hours, commit count, and task completion rate.
+- Observed activity patterns across the available data.
+
+### Outcome
+Created visual representations of developer activity to make comparisons easier and understand developer working patterns.
+
+## 2. Relevant Metrics Analysis
+
+### Objective
+To identify and analyse important metrics related to developer flow state, cognitive load, and productivity.
+
+### Metrics Analysed
+- Coding Hours
+- Commit Count
+- Task Completion Rate
+- Cognitive Load
+- Flow State
+
+### Activities Performed
+- Selected relevant metrics from the dataset.
+- Checked the availability of required columns.
+- Compared developer activity with cognitive load and flow state.
+- Examined relationships between productivity metrics.
+- Used Python and Pandas for metric analysis.
+
+### Outcome
+Identified important metrics for understanding developer activity, flow state, and cognitive load. This analysis provides a foundation for identifying patterns and drawing meaningful insights from the dataset.
 ## 8. Limitations
 
 - The analysis covers only valid numeric cognitive load values.
 - Missing and invalid values are excluded after numeric conversion.
 - The histogram shows the overall distribution rather than developer-specific comparisons.
 - Cognitive load alone does not explain developer productivity or performance.
+
+## Pattern and Trend Analysis
+
+### Objective
+To identify patterns and relationships in developer flow states, cognitive load, task duration, and interruptions.
+
+### Activities Performed
+- Standardized flow-state categories by removing extra spaces and inconsistent capitalization.
+- Identified the frequency of different developer flow states.
+- Analysed cognitive load score distribution.
+- Compared average task duration across different flow states.
+- Examined interruption patterns across developer flow states.
+
+### Key Observations
+- Focused was the most frequently observed flow state in the initial analysis.
+- Interrupted was the second most frequently observed flow state.
+- Average cognitive load score was approximately 5.75.
+- Multitasking showed a higher average task duration in the initial output.
+- Different flow states showed variations in average interruption counts.
+
+### pattern and trends :
+### Key Observations – Pattern Analysis
+
+1. **Developer Flow State:** Focused was the most frequently observed flow state, with 2,943 sessions, followed by Interrupted with 2,007 sessions.
+
+2. **Cognitive Load:** The average cognitive load score was approximately 5.75, with a median of 5.80 across 9,748 records.
+
+3. **Task Duration:** Multitasking recorded the highest average task duration at approximately 225.33 minutes among the main flow-state categories.
+
+4. **Interruptions:** Focused sessions recorded an average of 3 interruptions, while Interrupted sessions recorded an average of 2.6 interruptions in the initial output.
+
+5. **Data Quality:** Flow-state categories contained inconsistent capitalization and extra spaces, which required standardization for accurate analysis.
+
+6. **Cognitive Load Validation:** Cognitive load scores ranged from -2 to 15, indicating that the minimum and maximum values should be checked against the expected score range.
+   
+### Outcome
+Identified important patterns in developer activity, flow state, and cognitive load. The analysis provides a foundation for further trend visualization and insight generation.
+
+### Tools Used
+- Python
+- Pandas
+- Excel Dataset
+
+  ## Pattern and Trend Visualization
+
+### Objective
+To visually represent developer flow state, cognitive load, task duration, and interruption patterns to understand developer working behaviour.
+
+### Tools Used
+- Python
+- Pandas
+- Matplotlib
+- Excel Dataset
+
+### Visualizations Performed
+1. Developer Flow State Distribution – Visualized the frequency of different flow states.
+2. Cognitive Load Distribution – Displayed the distribution of cognitive load scores among developer sessions.
+3. Task Duration by Flow State – Compared average task duration across different flow states.
+4. Interruptions by Flow State – Compared average interruptions across different flow states.
+5. Cognitive Load Trend Over Time – Examined changes in average cognitive load across session dates.
+
+### Visualization Techniques
+- Bar Chart
+- Histogram
+- Trend Line Chart
+
+### Outcome
+Created visual representations of important developer activity metrics and behavioural patterns. The charts help identify differences across flow states and examine cognitive load changes over time.
+
+## Key Findings and Insights
+
+### Objective
+To summarize the important findings obtained from developer flow state, cognitive load, task duration, interruptions, and activity analysis.
+
+### Key Findings
+- Identified the most frequently observed developer flow states.
+- Analysed cognitive load distribution among developer sessions.
+- Compared task duration across different flow states.
+- Examined interruption patterns during developer sessions.
+- Identified changes in cognitive load over time.
+
+### Insights
+- Developer flow states vary across working sessions.
+- Cognitive load scores provide information about developers' mental effort.
+- Task duration and interruption patterns differ across flow states.
+- Time-based analysis helps identify changes in cognitive load.
+
+### Outcome
+The findings provide an overall understanding of developer working patterns, flow states, and cognitive load, supporting further analysis of developer productivity.
